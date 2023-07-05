@@ -13,7 +13,7 @@ function Register() {
   const onFinish = async (values) => {
     setLoading(true);
     try {
-      await axios.post("api/user/register", values);
+      await axios.post("https://backend1123.onrender.com/api/user/register", values);
       setLoading(false);
       message.success("Registration successfull");
     } catch (error) {
