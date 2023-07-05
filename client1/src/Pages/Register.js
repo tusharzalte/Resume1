@@ -13,7 +13,8 @@ function Register() {
   const onFinish = async (values) => {
     setLoading(true);
     try {
-      await axios.post("https://backend1123.onrender.com/api/user/register", values);
+      const backendUrl = "https://backend1123.onrender.com";
+      await axios.post(`${backendUrl}/api/user/login`, values);
       setLoading(false);
       message.success("Registration successfull");
     } catch (error) {
