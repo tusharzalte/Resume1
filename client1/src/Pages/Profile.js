@@ -15,7 +15,8 @@ function Profile() {
   const onFinish = async (values) => {
     setLoading(true);
     try {
-      const result = await axios.post("https://backend1123.onrender.com/api/user/update", {
+      const backendUrl = "https://backend1123.onrender.com";
+      const result = await axios.post(`${backendUrl}/api/user/login`, {
         ...values,
         _id: user._id,
       });
