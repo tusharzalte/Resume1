@@ -11,8 +11,7 @@ function Register() {
   const onFinish = async (values) => {
     setLoading(true);
     try {
-       const API = axios.create({ baseURL: "https://backend1123.onrender.com" });
-      const user = await API.post("/api/user/login", values);
+      const user = await axios.post("api/user/login", values);
       message.success("Login successfull");
       localStorage.setItem("tusharresume-users", JSON.stringify(user.data));
       setLoading(false);
