@@ -74,7 +74,7 @@ Open your web browser and navigate to `http://localhost:3000` to access the tush
     	</tr>
     	<tr>
     		<td>
-    			<img width="800px" height="400px" src="client/src/Resources/Screenshots/Register.png">
+    			<img width="800px" height="400px" src="https://github.com/tusharzalte/Resume1/blob/main/client/src/Resources/Screenshots/Register.png">
     			</td>
     		</tr>
     	</table>
@@ -84,7 +84,7 @@ Open your web browser and navigate to `http://localhost:3000` to access the tush
     		</tr>
     		<tr>
     			<td>
-    				<img width="800px" height="400px" src="client/src/Resources/Screenshots/login.png">
+    				<img width="800px" height="400px" src="https://github.com/tusharzalte/Resume1/blob/main/client/src/Resources/Screenshots/login.png">
     				</td>
     			</tr>
     		</table>
@@ -94,7 +94,7 @@ Open your web browser and navigate to `http://localhost:3000` to access the tush
     			</tr>
     			<tr>
     				<td>
-    					<img width="800px" height="400px" src="client/src/Resources/Screenshots/Profile.png">
+    					<img width="800px" height="400px" src="https://github.com/tusharzalte/Resume1/blob/main/client/src/Resources/Screenshots/Profile.png">
     					</td>
     				</tr>
     			</table>
@@ -104,7 +104,7 @@ Open your web browser and navigate to `http://localhost:3000` to access the tush
     				</tr>
     				<tr>
     					<td>
-    						<img width="800px" height="400px" src="client/src/Resources/Screenshots/home.png">
+    						<img width="800px" height="400px" src="https://github.com/tusharzalte/Resume1/blob/main/client/src/Resources/Screenshots/home.png">
     						</td>
     					</tr>
     				</table>
